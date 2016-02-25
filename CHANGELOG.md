@@ -1,11 +1,11 @@
-joerd CHANGELOG
-===============
+Joerd Cookbook Changelog
+========================
 
 This file is used to list changes made in each version of the joerd cookbook.
 
-0.1.0
+0.0.1
 -----
-- [your_name] - Initial release of joerd
+- Matt Amos - Initial release of Joerd Cookbook.
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
