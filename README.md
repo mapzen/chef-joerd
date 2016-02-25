@@ -8,7 +8,7 @@ Requirements
 
 #### cookbooks
 - `apt` - For installing OS packages.
-- `git` - For... ???
+- `git` - To check out Joerd versions from Github.
 - `runit` - To run Joerd as a service.
 - `user` - To create a special user for Joerd.
 
