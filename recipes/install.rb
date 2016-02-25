@@ -19,7 +19,3 @@ end
 execute 'pip_install' do
   command "pip install -U -r #{node[:joerd][:pip_requirements_location]}"
 end
-
-execute 'pip_install_joerd' do
-  command "pip install #{node[:joerd][:pip_joerd_repo]}"
-end
