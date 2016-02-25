@@ -1,0 +1,6 @@
+#!/bin/bash
+
+exec 2>&1
+exec chpst -u <%= node[:joerd][:user][:user] %> \
+    joerd server \
+    --config <%= "#{node[:joerd][:cfg_path]}/#{node[:joerd][:cfg_file]}" %>
