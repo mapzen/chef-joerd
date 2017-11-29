@@ -1,9 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'berkshelf'
+gem 'berkshelf'   , '> 4.2.0', '< 6'
 gem 'test-kitchen'
-gem 'chefspec'    , '= 4.0.1'
+gem 'chefspec'    , '~> 4.0'
 gem 'foodcritic'  , '= 4.0.0'
-gem 'rainbow'     , '= 2.0.0'
-gem 'rubocop'     , '= 0.24.0'
+gem 'rainbow'     , '~> 2.0'
+gem 'rubocop'     , '~> 0.49.0'
 gem 'kitchen-vagrant'
+
+# force upgrades to fix security issues
+gem 'yajl-ruby',    '~> 1.3', '>= 1.3.1'
+gem 'minitar',      '~> 0.6'
+gem 'rest-client',  '~> 1.7.3'
